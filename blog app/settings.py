@@ -86,10 +86,10 @@ WSGI_APPLICATION = 'ai_blog_app.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'blogpost',  # Name of the database
-        'USER': 'susannduta',  # Username
-        'PASSWORD': '2210',  # Password
-        'HOST': 'localhost',  # If PostgreSQL is running locally
+        'NAME': '',  # Name of the database
+        'USER': '',  # Username
+        'PASSWORD': '',  # Password
+        'HOST': '',  # If PostgreSQL is running locally
         'PORT': '',  # Port (leave empty for default)
     }
 }
